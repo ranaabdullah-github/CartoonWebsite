@@ -1,0 +1,265 @@
+/* Style for Body */
+body{
+    font-family: latin-100,arabic-100,sans-serif;
+    margin: 0;
+    background: #f0f3f6;
+  
+
+}
+
+/* ---------- Start Navbar----------------- */
+        /* Style for Navbar and Fotter same background Color */
+.styleNavFoot{
+    background-color: #3d3a6b;
+    height: 100px;
+}
+        /* Button For cartoon Page Language English And Arabic */
+.btn{
+    background: #3d3a6b none repeat scroll 0 0;
+    border: 1px solid azure; 
+    color: azure;
+    outline: medium none; 
+    font-size: 14px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.caption{
+    color: rgb(243 173 186);
+    text-align: center;
+    padding-left: 30%;
+    font-size: xx-large;
+    
+}
+        /* color font for navbar */
+nav tr td a{
+    color: azure;
+}
+nav tr td.fontLang {
+    padding-right: 5px;
+    font-size: x-large;
+    text-align: right;
+} */
+/*---------------------InlineBlock----------------------*/
+
+.inlineblock{
+    /* display: inline-block; */
+    padding-right: 8px;
+}
+.divLang{
+    /* text-align: right; */
+    direction: rtl;
+    padding-right: 20px;
+    /* padding-left:200px; */
+}
+/* -------------------End Navbar--------------------- */
+/* -----------------Start English Sectoion -----------------*/
+.slide{
+    background-color: #6d69cd;
+    margin-left: 0px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+        /* Image size for English image */
+.slide img{
+    height: 120px;
+    width: 140px;
+}
+/* -----------------End English Sectoion -----------------*/
+/*-------------------Split Section-------------------------*/
+.split{
+    margin-left: 10px;
+    color:#3d3a6b ;
+}
+/* -----------------Start Arabic Sectoion -----------------*/
+.slidArabic{
+    
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.slidArabic a{
+    padding-right: 8px ;
+}
+        /* Image size for Arabic image */
+.slidArabic img{
+    height: 120px;
+    width: 140px;
+}
+/* -----------------End Arabic Sectoion -----------------*/
+/* --------------------Start Footer-------------------- */
+footer{
+    padding-top: 10px;
+}
+
+footer div tr td.fontLang {
+    padding-right: 5px;
+    font-size: x-large;
+    text-align: right;
+}
+footer a{
+        text-decoration: none;
+        white-space: nowrap;
+        color: #fff;
+        padding-right: 10px;
+}
+ .copyright{
+    color: azure;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.clsSpanFooter{
+    font-size: 13px;
+}
+/* --------------------End Footer-------------------- */
+/* ----------------End Index page------------------ */
+
+/* ----------------Start Page two English Cartoons----------------- */
+.spanTitleChannel{
+    color: #3d3a6b;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2px;
+    font-weight: bold;
+   
+}
+.spanTitleChannel-arabic{
+    color: #3d3a6b;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 2px;
+    text-align: right;
+    direction: rtl;
+    padding-left: 800px;
+    font-weight: bold;
+}
+.firstSestion{
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    margin:2%;
+  }
+  .card img{
+      width:99%;
+     
+  }
+  .card-arabic {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    margin:2%;
+  }
+  .card-arabic img{
+    width:99%;
+      height: 150px;
+  }
+  .card-details {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    margin:2%;
+  }
+  .card-details img{
+    width:100%;
+      height:60%;
+  }
+  /* Add some padding inside the card container */
+  .card-title {
+    padding: 2px 16px;
+  }   
+/* ----------------End Page two English Cartoons------------------ */
+/*--------------Start Page Arabic Cartoons-------------------------*/
+/*----------------------------- image background---------------- */
+.mainvideoDiv{
+    direction: rtl;
+    margin-left:10px;
+    background-image: url(../images/ArabicCartoon/oldCartoon/oldSimsim1.jpg);
+    background-size: cover;
+    height: 500px;
+}
+/* background white transperant over image*/
+#mainContent{
+    background-color:rgba(248,247,216,0.7); 
+    width:100%; 
+    height:100%;
+    padding-top: 50px;
+    display: inline-block;
+   
+}
+span .TitleCartoonArabic{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.containerVideo{
+    display: inline-block;
+}
+.div111{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.titleVideo{
+    vertical-align: top;
+    display: inline-block;
+    font-weight: bold; 
+    font-size: x-large; 
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* text-align: center; */
+     color: #3d3a6b;
+
+}
+
+/*-------------------End Page Arabic Cartoons-----------------------*/
+/*-------------------------Start simsim page-----------------------*/
+video{
+    padding-left: 10px;
+    object-fit: cover; 
+    
+}
+.video_poster{
+    width:"400px";
+     height:"400px";
+     padding-top: 20px;
+     padding-right: 10px;
+     
+     
+    }
+.card-title-arabic{
+    direction: rtl;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+.card-simsim{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 90%;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:2px;
+    margin:2%;
+    text-align: right;
+}
+/*-------------------------End simsim page-------------------------*/
